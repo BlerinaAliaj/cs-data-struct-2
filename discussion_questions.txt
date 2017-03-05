@@ -1,0 +1,59 @@
+CS Data Structures 2 Discussion Questions
+
+Recursion Questions:
+
+1. Recursion is a way of programming where a function calls itself/loops many 
+   times within its own body until it reaches a base case. 
+2. It is neccessary to have a base case to establish a point where the program
+   has to terminate, otherwise it will run recursively forever in an infinite 
+   loop.
+
+
+Graph Questions:
+
+1. Graphs are computer-science data structures of nodes that are related to each
+   other in a directed or non-directed way. 
+
+2. A graph is different from a tree because each node can be related or connected
+   to each other. Graphs can contain cycles.
+
+3. The system of roads would be modeled with a graph.
+
+
+Performance of Data Structures Questions:
+
+
+Data Structure |   Index  | Search | Add-R | Add-L |  Pop-L  | Pop-R
+____________________________________________________________________
+
+Python List(Array)  O(1)     O(n)    O(1)    O(n)     O(n)     O(1)
+Linked List         O(n)     O(n)    O(1)    O(1)     O(1)     O(n)
+Doubly-Linked List  O(n)     O(n)    O(1)    O(1)     O(1)     O(1)
+Queue (as Array)    X        X       O(1)    X        O(n)     X
+Queue(as LL or DLL) X        X       O(1)    X        O(1)     X
+Stack (Arr/LL/DLL)  X        X       O(1)    X        X        O(1)
+Deque (as DLL)      X        X       O(1)    O(1)     O(1)     O(1)
+
+
+
+Data Structure    |     Get |   Add |   Delete | Iterate |   Memory
+___________________________________________________________________
+
+Dictionary (Hash Map)   O(1)    O(1)     O(1)       O(n)     medium
+Set (Hash Map)          O(1)    O(1)     O(1)       O(n)     medium
+Binary Search Tree    O(log n) O(log n) O(log n)   O(log n)  a little
+Tree                  O(n)     O(1)     O(1)       O(n)      a little
+
+Sorting Questions:
+
+1. Bubble sort algorithm works by iterating over the list and comparing each pair
+   of adjecant items and swaps them if they are not in the right order. The highest item will be bubbled to the right. An efficient bubble sort would keep track if a swap has happened an will not iterate over again if no swap has occurred. 
+
+2. Merge sort merges two sorted list by comparing first item of each list, remove
+   the lowest item and append it to a results list. Continue the process until a list is empty. Append the remaining items to the results list.
+
+3. Quick sort works by choosing a pivot point in the list and moving items lower
+   that the pivot item to the beginning of the list and move all the numbers bigger than the pivot to the right of the item. 
+
+
+   
